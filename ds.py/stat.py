@@ -31,6 +31,19 @@
 # std=np.std(std_data)
 # print(std)
 
+
+import numpy as np
+cls=[1,2,3,4,4,4,5]
+import statistics as stats
+stats.mode(cls)
+
+
+
+import numpy as np
+cols=[1,2,0,10,3,4,5]
+np.sort(cols)
+
+
 # import numpy as np
 # col=[1,2,3,5,23,234,12]
 # var=np.var(col)
